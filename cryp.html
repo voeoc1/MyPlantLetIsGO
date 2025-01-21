@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Encryption</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: left; /* Align text to the left */
+            background-color: #f4f4f4;
+        }
+        input, button {
+            padding: 10px;
+            margin-top: 10px;
+            width: 100%;
+            max-width: 400px;
+        }
+        .output {
+            margin-top: 20px;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Message Encryption</h1>
+    <h2>Enter Your Message</h2>
+    <input type="text" id="inputMessage" placeholder="Enter a message to encrypt">
+    <button onclick="encryptMessage()">Encrypt Message</button>
+    
+    <div class="output">
+        <h2>Original Message:</h2>
+        <p id="originalMessage"></p>
+        <h2>Encrypted Message:</h2>
+        <p id="encryptedMessage"></p>
+       
+    </div>
+
+    <script spellcheck="script.js"> </script>
+</body>
+</html>
